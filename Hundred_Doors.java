@@ -24,26 +24,35 @@ public class Hundred_Doors
                 DoorCondition[i] = true;
             }
     //Second Pass (Every other Door)
-        for (i = 0; i<100;i+=2)
+        for (i = 0; i<100;i++)
             {
-                if (DoorCondition[i]==true)
-                    DoorCondition[i] = false;
-                else if (DoorCondition[i] == false)
-                    DoorCondition[i] = true;
+                if(i%2==0)
+                {
+                    if (DoorCondition[i]==true)
+                        DoorCondition[i] = false;
+                    else
+                        DoorCondition[i] = true;
+                }
+
             }
     //Third Pass (Every Third Door)
-        for (i = 0; i<100;i+=3)
+        for (i = 0; i<100;i++)
             {
-                if (DoorCondition[i]==true)
-                    DoorCondition[i] = false;
-                else if (DoorCondition[i] == false)
-                    DoorCondition[i] = true;
+                if(i%3==0)
+                {
+                    if (DoorCondition[i]==true)
+                        DoorCondition[i] = false;
+                    else
+                        DoorCondition[i] = true;
+                }
+
             }
         for(i = 0; i<100; i++)
             {
                 if (DoorCondition[i]==true)
                     System.out.println("Door Number "+ (i+1) + " is open");
             }
-
+            if (DoorCondition[1]==true)
+                System.out.println(DoorCondition[1]);
     }
 }
