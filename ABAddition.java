@@ -17,5 +17,12 @@ public class ABAddition \\Can only work with whole numbers
   System.out.println("Enter the second number");
   int SecondNumber = UserInput.nextInt(); \\ Takes the second number that the user inputs
   System.out.println("Sum" + (FirstNumber + SecondNumber)); \\Adds the two numbers the user inputs
+  System.out.println("For decimals");
+    
+  System.out.println("Enter the first number");
+  double First_Number = UserInput.nextDouble();
+  System.out.println("Enter the second number");
+  double Second_Number = UserInput.nextDouble();
+  System.out.println("Sum " + (First_Number+Second_Number));
   }
 }
