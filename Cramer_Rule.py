@@ -5,6 +5,6 @@
 
 number_of_variables = input("How many variables are there? ")
 while (number_of_variables > 0):
-
-
+  variable_value = input ("What is the value of the first variable")
+  
 def system_of values:
