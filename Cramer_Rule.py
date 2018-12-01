@@ -8,3 +8,4 @@ while (number_of_variables > 0):
   variable_value = input ("What is the value of the first variable")
   
 def system_of values:
+  print("Add Value")
