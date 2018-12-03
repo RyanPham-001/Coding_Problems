@@ -13,9 +13,13 @@ public class FibonacciSequence
         int secondTerm = 1;
         int finalNumber = 0;
         int x = 2;
-        if (nthTerm == 1||nthTerm==2)
+        if (nthTerm == 1)
         {
-            System.out.println("The "+nthTerm + "th term is 1.");
+            System.out.println("The 1st term is 1.");
+        }
+        else if (nthTerm ==2)
+        {
+            System.out.println("The 2nd term is 1.");
         }
         else if (nthTerm>0)
         {
