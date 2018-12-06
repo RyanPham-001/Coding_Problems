@@ -31,7 +31,8 @@ public class CostOfGiven
         double NumberOfTiles = Division(AreaOfFloor,AreaOfTile); //Finds the number of tiles that can fit in the area
 
         double TotalCost = Multiplication(NumberOfTiles,CostOfTile); //Finds the total cost of the tiles in the floor
-        System.out.println("The total cost to fill this " + widthOfFloor +" by "+ lengthOfFloor +" floor with tiles is $"+ ChangeToMoney.format(TotalCost));;
+        System.out.println("The total cost to fill this " + widthOfFloor +" by "+ lengthOfFloor +" floor with tiles is $"+ ChangeToMoney.format(TotalCost));
+        System.out.println("Thank you for using this program");
     }
 
     public static double Multiplication(double FirstValue, double SecondValue)
