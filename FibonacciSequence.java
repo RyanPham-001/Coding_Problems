@@ -6,7 +6,7 @@ public class FibonacciSequence
     {
         Scanner UserInput = new Scanner(System.in);
         System.out.println("Fibonacci Sequence");
-        LineBreak();
+        LineBreak(); j
         System.out.print("Enter the nth term of the Fibonacci Sequence you would like to see? ");
         int nthTerm = UserInput.nextInt();
         int firstTerm = 1;
