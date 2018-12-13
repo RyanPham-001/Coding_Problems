@@ -9,7 +9,8 @@ System.out.print("What is the total cost of the product? ");
 double costOfProduct = UserInput.nextDouble();
 System.out.print("\nWhat is the amount of money that you spent?");
 double paymentofProduct = UserInput.nextDouble();
-
+double changeToReturn = paymentofProduct - costOfProduct; //Assumes that you paid for more than the cost
+//changeToReturn%25 
 }
 
 }
