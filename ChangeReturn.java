@@ -14,6 +14,7 @@ double changeToReturn = paymentofProduct - costOfProduct; //Assumes that you pai
 //changeToReturn%5
 //changeToReturn%10
 //return(changeToReturn)
+System.out.println("The total is " + changeToReturn);
 }
 
 }
