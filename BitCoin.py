@@ -1,1 +1,1 @@
-print("Joe is wrong")
+print("Joe is not right")
